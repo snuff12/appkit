@@ -1,0 +1,12 @@
+{
+  "name": "appkit-with-retry-rejection-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "repro": "node repro.mjs" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@reown/appkit-utils": "1.8.24",
+    "viem": "2.57.17"
+  }
+}
